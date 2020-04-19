@@ -1,0 +1,11 @@
+name: mesg-instant-answers
+sid: mesg-instant-answers
+description: "Get instant answers using DuckDuckGo API"
+tasks:
+  searchQuery:
+    inputs:
+      query:
+        type: String
+    outputs:
+      result:
+        type: Object
