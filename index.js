@@ -1,8 +1,8 @@
-const Service = require('@mesg/service');
+const Service = require('@liteflow/service');
 
-const mesg = new Service();
+const liteflow = new Service();
 
-mesg.listenTask({
+liteflow.listenTask({
     searchQuery: require('./tasks/searchQuery')
 })
 .on('error', (error) => console.error(error));
